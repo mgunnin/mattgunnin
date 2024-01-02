@@ -34,7 +34,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Auburn University",
-      degree: "Bachelor's Degree in Computer Engineering, Minor in Business",
+      degree: "Bachelor's Degree in Computer Engineering, Minor in Business Administration",
       start: "2004",
       end: "2009",
     },
@@ -90,9 +90,10 @@ export const RESUME_DATA = {
       start: "2016",
       end: "2023",
       description: [
+        "- Raised over $5M in venture funding across Pre-Seed, Seed, and Series A from leading investors, including MIT, Eniac Ventures, Quake Capital, AVG Fund, and 20+ other angel investors and venture funds.",
         "- Employed cutting-edge technology in Computer Vision and Reinforcement Learning to capture real-time data and analytics during live sports and esports events. Using our innovative approach, we have developed a stats and analytics dashboard for some of the biggest names in sports and gaming, including Riot Games, Acer, Blizzard, EA, TakeTwo, Epic Games, NFL, NBA, and ABinBev, resulting in more than $140,000 MRR.",
-        "- Developed a proprietary platform that leverages AI and ML to provide real-time data and analytics for sports and esports events.",
-        "- Raised $5.5M in venture funding from leading investors, including MIT, Eniac Ventures, Quake Capital, AVG Fund, and 20+ other angel investors and venture funds.",
+        "- Spearheaded the creation of a leading real-time esports fantasy and platform, integrating non-fungible tokens (NFTs) and real-time technology to enhance user engagement. By pioneering creative community-focused features, including mutable and evolutionary NFTs, I significantly boosted platform growth and user retention, resulting in more than 150,000 monthly active users. My expertise in identifying emerging trends and leveraging cutting-edge technology to create innovative products has been instrumental in driving business growth and profitability. With a proven track record of delivering successful products, I am confident that I can bring significant value to an executive role at a leading technology company.",
+        "- Leveraged blockchain technology to scale and enhance product offerings, launching multiple successful NFT membership passes across Twitch, Discord, and virtual worlds, including Metapass (92,000+), OneBot (34,000+), and Arenas (2,000).",
       ],
     },
     {
@@ -114,7 +115,7 @@ export const RESUME_DATA = {
       company: "Unikrn",
       link: "https://unikrn.com/",
       badges: ["Seattle, WA"],
-      title: "VP Product",
+      title: "Vice President Product Engineering",
       logo: JojoMobileLogo,
       start: "2015",
       end: "2016",
@@ -135,8 +136,8 @@ export const RESUME_DATA = {
       description: [
         "- Responsible for site-wide content initiatives of Azubu & Esportspedia, including product strategy and execution, content curation and production, and project management.",
         "- Spearheaded multi-million dollar streaming partnership with the Korean Esports Association (KeSPA), comprising more than 20 teams and 200 players, including the #1 player in the world, Faker.",
-        "- Develop standards, systems, and best practices (both human and technological) for the creation, distribution, maintenance, retrieval, and repurposing of partner, streamer, and in-house content.",
-        "- Worked closely with members of the Marketing, PR, BI, and Creative Departments to design and package content, while ensuring compliance with brand requirements and consistency in style and tone of voice.",
+        "- Developed standards, systems, and best practices (both human and technological) for the creation, distribution, maintenance, retrieval, and repurposing of partner, streamer, and in-house content.",
+        "- Worked closely with members of the Marketing, PR, BI, and Creative Departments to design and package content while ensuring compliance with brand requirements and consistency in style and tone of voice.",
       ],
     },
     {
@@ -166,15 +167,16 @@ export const RESUME_DATA = {
         "- Proficient in performing Windows server setups and management, including installation of Web Farm Framework, IIS 6/7, and SQL 2008 on a dedicated virtual machine.",
         "- Skilled in setting up Linux servers with LAMP stacks, Memcached, Varnish, and MySQL using a control panel to manage virtual machines.",
         "- Assigned as the Subject Matter Expert (SME) in May of 2012 for all Cloud Server MaaS (Monitoring as a Service) applications and tools.",
+        "- Successfully managed Linux and Windows Core Cloud servers, overseeing the maintenance of XenServer and XenClassic hypervisors for small business and enterprise servers as an L2 System Administrator. Also acted as the Lead SME of Cloudkick for all Cloud Servers.",
       ],
     },
     {
       company: "Lexicom Computer Systems",
       link: "",
-      badges: [],
+      badges: ["Montgomery, AL"],
       title: "System Administrator L2",
       start: "2009",
-      end: "2010",
+      end: "2011",
       description: [
         "- Managed and maintained Linux and Windows networks for over 500 customers, ensuring high availability and optimal performance.",
         "- Configured and maintained enterprise-level Active Directory installations, providing seamless integration and secure access control.",
@@ -188,7 +190,7 @@ export const RESUME_DATA = {
       start: "2008",
       end: "2009",
       description: [
-        "- Led IT support operations, overseeing tasks such as Mac OSX Server setup and management, and design and administration of multiple websites.",
+        "- Led IT support operations, overseeing tasks including server setup and management, and design and administration of multiple websites.",
         "- Designed and implemented a highly advanced computer network that boosted productivity by 3x, while significantly reducing server downtime, network performance issues, and configuration errors.",
       ],
     },
@@ -203,6 +205,20 @@ export const RESUME_DATA = {
         "- Managed all web hosting operations, including server management, client relationship development, technician and sales representative hiring and training.",
         "- Implemented a new virtual training system for technicians, enabling remote learning using in-house software.",
         "- Optimized billing systems and performed cutting-edge SEO techniques for both our own websites and certain client websites.",
+      ],
+    },
+    {
+      company: "GamerToBe",
+      link: "gamertobe.com",
+      badges: ["Remote"],
+      title: "Founder",
+      logo: NSNLogo,
+      start: "1998",
+      end: "2000",
+      description: [
+        "- At 13, I convinced a local small business ISP to run a T1 line (1.5mbps!) 30 miles out to my parent's house; I set up a website and game server hosting business that I initially ran entirely out of our basement. After two years, I had grown to 100's of users with colocated servers setup across the US and EU.",
+        "- After entering high school, it became difficult to maintain the needs of the platform, resulting in me selling the company to a Law Firm out of New York that was in need of server space.",
+        "- Whether I was learning how to build a server from scratch, convincing data centers to sell me discounted rack space for our servers, or writing up 12-month contracts for small and enterprise businesses around the world, the stories and lessons learned from this experience were priceless and still play a major part in my day to day life.",
       ],
     },
   ],

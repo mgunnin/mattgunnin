@@ -131,9 +131,9 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-3 text-xs leading-relaxed">
                   {Array.isArray(work.description) 
-                    ? <ul>{work.description.map((item, index) => <li key={index}>{item}</li>)}</ul>  
+                    ? <ul>{work.description.map((item, index) => <li style={{marginBottom: '0.5em'}} key={index}>{item}</li>)}</ul>  
                     : work.description}
                 </CardContent>
               </Card>

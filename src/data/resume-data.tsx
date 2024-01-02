@@ -201,14 +201,25 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "MattGunnin.me",
+      title: "Matt Gunnin",
       techStack: ["Side Project", "Next.js", "React", "Vercel"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "My personal website and CV. Built with Next.js and Typescript",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
+        label: "Matt Gunnin",
         href: "https://mattgunnin.com/",
+      },
+    },
+    {
+      title: "Resource Hub",
+      techStack: ["Side Project", "Raindrop", "Resource Collection"],
+      description:
+        "Collection of my favorite resources, guides, and tools that I've collected over the years.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "Raindrop",
+        href: "https://raindrop.io/esports",
       },
     },
   ],

@@ -196,6 +196,13 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "AI",
+    "Entrepreneurship",
+    "Startups",
+    "Esports",
+    "Fantasy Sports",
+    "Gambling",
+    "Venture Capital",
     "Blockchain",
     "NFTs",
     "Web3",
@@ -203,7 +210,8 @@ export const RESUME_DATA = {
     "Ethereum",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React",
+    "Next.js",
     "Node.js",
     "GraphQL",
     "Business Development",
@@ -214,11 +222,13 @@ export const RESUME_DATA = {
     "Content Creation",
     "Design",
     "UI/UX",
+    "Computer Vision",
+    "Reinforcement Learning",
   ],
   projects: [
     {
       title: "Matt Gunnin",
-      techStack: ["Side Project", "Next.js", "React", "Vercel"],
+      techStack: ["Personal", "Blog", "Next.js", "React", "Vercel"],
       description:
         "My personal website and CV. Built with Next.js and Typescript",
       logo: JarockiMeLogo,
@@ -236,6 +246,50 @@ export const RESUME_DATA = {
       link: {
         label: "Raindrop",
         href: "https://raindrop.io/esports",
+      },
+    },
+    {
+      title: "Esportscalendar",
+      techStack: ["Calendar", "Esports", "Events Calendar"],
+      description:
+        "Esports event calendar that I built in 2013. It was the first of its kind and was used by 100's of thousands of users each month.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "Esportscalendar",
+        href: "https://esportscalendar.com",
+      },
+    },
+    {
+      title: "Discord Community",
+      techStack: ["Discord", "Community", "Gaming", "Esports", "NFTs", "Crypto"],
+      description:
+        "Discord community that was launched in 2017. Grew to 10,000+ members and was one of the first to launch membership capable NFTs.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "Discord Server",
+        href: "https://e1.gg/discord",
+      },
+    },
+    {
+      title: "OneConsole",
+      techStack: ["Dashboard", "Computer Vision", "Stats & Analytics", "Esports", "League of Legends", "Riot Games", "AI", "Reinforcement Learning"],
+      description:
+        "Real-time stats and analytics dashboard for League of Legends' broadcasters and analyst. Built using Computer Vision and Reinforcement Learning. Used by Riot Games, Acer, and more than 50 professional & amateur teams.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "OneConsole",
+        href: "",
+      },
+    },
+    {
+      title: "OneView",
+      techStack: ["Dashboard", "Computer Vision", "Twitch", "Extension", "Predictions", "Streaming"],
+      description:
+        "Live engagement overlay built as an early Twitch extension. Provided viewers with live stats, trivia, and predictions during streams. Built in partnership with Twitch and used by 100's of streamers.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "OneView",
+        href: "",
       },
     },
   ],

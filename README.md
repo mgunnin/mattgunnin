@@ -1,4 +1,6 @@
-# Minimalist CV
+# Matt Gunnin CV/Resume
+
+My personal CV and Resume built with Next.js and Shadcn/ui.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)

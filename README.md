@@ -1,5 +1,3 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
-
 # Minimalist CV
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
@@ -39,7 +37,7 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - pnpm 8+
 
 ### Installation
@@ -66,7 +64,7 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 4. **Open [http://localhost:3000](http://localhost:3000)** in your browser
 
 5. **Customize your CV**
-   
+
    Edit the [src/data/resume-data.tsx](./src/data/resume-data.tsx) file to add your personal information, work experience, education, and skills.
 
 ### Available Scripts
@@ -118,6 +116,7 @@ export const RESUME_DATA = {
 ### Styling
 
 The app uses Tailwind CSS for styling. You can customize:
+
 - Colors in `tailwind.config.js`
 - Global styles in `src/app/globals.css`
 - Print styles are defined separately for optimal printing
@@ -156,6 +155,7 @@ No environment variables are required for basic usage. The app works out of the 
 ### Print Settings
 
 The app is optimized for printing. For best results:
+
 - Use Chrome/Chromium for printing
 - Enable "Background graphics" in print settings
 - Set margins to "Default"

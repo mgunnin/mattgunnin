@@ -269,7 +269,7 @@ export const RESUME_DATA = {
         "- Demonstrated strong leadership and negotiation skills by convincing a small business ISP to run a T1 line 30 miles out to a rural location, allowing for seamless operations and growth.",
         "- Led a team of professionals to build and maintain a customer base of hundreds of users with colocated servers set up across the US and EU.",
         "- Secured a successful exit by selling the business for $50K, two years after its inception, generating substantial returns for investors.",
-        "- Utilized excellent problem-solving and analytical skills to identify and capitalize on new market opportunities, contributing to the company's rapid growth and success.",
+        "- Utilized 'green' problem-solving and analytical skills to identify and capitalize on new market opportunities, contributing to the company's rapid growth and success.",
       ],
       skills: [
         "Business Operations · Web Hosting · Server Management · Client Relationships · Team Management · SEO · Strategic Planning",

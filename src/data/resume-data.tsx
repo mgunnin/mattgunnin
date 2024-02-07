@@ -128,7 +128,7 @@ export const RESUME_DATA = {
       company: "Unikrn",
       link: "https://unikrn.com/",
       badges: ["Seattle, WA"],
-      title: "Vice President Product Engineering",
+      title: "Chief Product Officer",
       logo: JojoMobileLogo,
       start: "2015",
       end: "2016",

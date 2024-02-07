@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/321368?v=4",
   personalWebsiteUrl: "https://mattgunnin.com",
   contact: {
-    email: "mgunnin@gmail.com",
+    email: "mg@mattgunnin.com",
     tel: "+1(334)462-8990",
     social: [
       {
@@ -90,10 +90,17 @@ export const RESUME_DATA = {
       start: "2016",
       end: "2023",
       description: [
-        "- Raised over $5M in venture funding across Pre-Seed, Seed, and Series A from leading investors, including MIT, Eniac Ventures, Quake Capital, AVG Fund, and 20+ other angel investors and venture funds.",
-        "- Employed cutting-edge technology in Computer Vision and Reinforcement Learning to capture real-time data and analytics during live sports and esports events. Using our innovative approach, we have developed a stats and analytics dashboard for some of the biggest names in sports and gaming, including Riot Games, Acer, Blizzard, EA, TakeTwo, Epic Games, NFL, NBA, and ABinBev, resulting in more than $140,000 MRR.",
-        "- Spearheaded the creation of a leading real-time esports fantasy and platform, integrating non-fungible tokens (NFTs) and real-time technology to enhance user engagement. By pioneering creative community-focused features, including mutable and evolutionary NFTs, I significantly boosted platform growth and user retention, resulting in more than 150,000 monthly active users. My expertise in identifying emerging trends and leveraging cutting-edge technology to create innovative products has been instrumental in driving business growth and profitability. With a proven track record of delivering successful products, I am confident that I can bring significant value to an executive role at a leading technology company.",
-        "- Leveraged blockchain technology to scale and enhance product offerings, launching multiple successful NFT membership passes across Twitch, Discord, and virtual worlds, including Metapass (92,000+), OneBot (34,000+), and Arenas (2,000).",
+        "- Founded and led a technology startup from ideation to successful rounds of funding, raising over $7 million from top Venture Capital firms and Angel Investors (Eniac Ventures, Quake Capital, XSeed Capital, AVG Fund).",
+        "- Spearheaded the implementation of cutting-edge technology in Computer Vision and Reinforcement Learning to capture real-time data and events during sports and esports events, resulting in $140,000+ in monthly recurring revenue.",
+        "- Developed a first-of-its-kind stats and analytics dashboard for leading names in sports and gaming, including Riot Games, Acer, Blizzard, EA, TakeTwo, Epic Games, NFL, NBA, and ABinBev.",
+        "- Pioneered the creation of a leading real-time esports fantasy and platform, integrating non-fungible tokens (NFTs) and real-time technology to enhance user engagement.",
+        "- Increased platform growth and user retention by over 150,000 monthly active users by introducing creative community-focused features, including mutable and evolutionary NFTs.",
+        "- Utilized blockchain technology to scale and enhance product offerings, launching multiple successful NFT membership passes across Twitch, Discord, and virtual worlds, including Metapass (92,000+), OneBot (34,000+), and Arenas (2,000).",
+        "- Identified emerging trends and leveraged cutting-edge technology to create visionary products instrumental in driving business growth and profitability.",
+        "- Demonstrated a proven track record of delivering successful products and leading cross-functional teams to meet ambitious business objectives.",
+      ],
+      skills: [
+        "Marketing · Esports · Software Development · User Experience · Artificial Intelligence · Startups · Fundraising · Blockchain Technology · NFT · Community Building · Strategic Planning · Growth and Scaling",
       ],
     },
     {
@@ -105,10 +112,16 @@ export const RESUME_DATA = {
       start: "2015",
       end: "2023",
       description: [
-        "- Launched and grew a comprehensive esports information hub, cultivating a loyal community of users and advocates.",
-        "- Implemented strategic initiatives that increased site traffic and community engagement, harnessing the power of real-time updates and user contributions. Premier esports informational resource visited by millions each month",
-        "- Led a team of 5 full-time employees and more than 100 individual monthly contributors.",
-        "- Covered each of the major esports titles, including League of Legends, Call of Duty, Halo, and Smite, including the resource custom-tailored for streamers and collegiate esports.",
+        "- Spearheaded the launch and growth of a comprehensive esports information hub that became the premier resource in the industry, visited by millions each month.",
+        "- Developed and executed strategic initiatives that significantly increased site traffic and community engagement through real-time updates and user-generated content, resulting in a loyal community of users and advocates.",
+        "- Built and led a high-performing team of 10 employees and 100 volunteer contributors spanning across games and departments, including marketing, content, events, and product development.",
+        "- Successfully covered all major esports titles, including League of Legends, Call of Duty, Halo, and Smite, while also providing a custom-tailored resource for streamers and collegiate esports.",
+        "- Leveraged data-driven insights to continuously improve user experience, inform content creation, and drive revenue growth.",
+        "-  Established and maintained strong partnerships with industry stakeholders, including game developers, sponsors, and media outlets, to enhance the platform's credibility and reach.",
+        "-  Championed a culture of innovation, collaboration, and accountability, fostering a dynamic and motivated team environment.",
+      ],
+      skills: [
+        "Product Management · Esports · Software Development · Knowledge Management · Business Development · User Experience",
       ],
     },
     {
@@ -120,10 +133,13 @@ export const RESUME_DATA = {
       start: "2015",
       end: "2016",
       description: [
-        "- Drove product innovation and team leadership in a cutting-edge esports betting platform. Focused on real-time betting technologies and user experience enhancements, significantly increasing user acquisition and retention.",
-        "- Oversaw all website development and operations for Unikrn and its subsidiaries. Managed a global development team that I quickly transitioned to the agile methodology using the scrum framework for product releases and improvement.",
-        "- Led the expansion of Unikrn's real money product throughout Europe and Australia.",
-        "- Substantially improved site stability and performance by creating and implementing QA and QC guidelines.",
+        "- Led product innovation and engineering teams in a cutting-edge esports gambling platform, driving user acquisition and retention through real-time betting technologies and user experience enhancements.",
+        "- Managed website development and operations for Unikrn and all subsidiaries, overseeing a global development team and transitioning to agile methodologies using the scrum framework for product releases and improvement.",
+        "- Designed and executed a comprehensive strategy for expanding real-money wagering products across Europe and Australia, successfully navigating complex regulatory landscapes, securing necessary licenses, and establishing key partnerships with payment processors while ensuring seamless transactions and adoption for customers.",
+        "- Significantly improved site stability and performance through implementing agile methodologies and comprehensive release cycles, while also creating and implementing quality assurance and control guidelines.",
+      ],
+      skills: [
+        "Agile · Product Development · Management · Full-Stack Development · Gambling · Leadership",
       ],
     },
     {
@@ -134,10 +150,14 @@ export const RESUME_DATA = {
       start: "2015",
       end: "2016",
       description: [
-        "- Responsible for site-wide content initiatives of Azubu & Esportspedia, including product strategy and execution, content curation and production, and project management.",
-        "- Spearheaded multi-million dollar streaming partnership with the Korean Esports Association (KeSPA), comprising more than 20 teams and 200 players, including the #1 player in the world, Faker.",
-        "- Developed standards, systems, and best practices (both human and technological) for the creation, distribution, maintenance, retrieval, and repurposing of partner, streamer, and in-house content.",
-        "- Worked closely with members of the Marketing, PR, BI, and Creative Departments to design and package content while ensuring compliance with brand requirements and consistency in style and tone of voice.",
+        "- Directed site-wide content initiatives for a leading esports streaming company, overseeing product strategy, content curation and production, and project management.",
+        "- Led successful multi-million dollar streaming partnership with the Korean Esports Association (KeSPA), managing over 20 teams and 200 players, including the world's #1 player, Faker.",
+        "- Developed and implemented company-wide standards, systems, and best practices for creating, distributing, maintaining, retrieving, and repurposing partner, streamer, and in-house content.",
+        "- Collaborated closely with Talent, Sales, Product, and Creative Departments to design and package content, ensuring adherence to brand guidelines and consistency in style and tone of voice.",
+        "- Achieved significant growth in audience engagement and viewership through inventive marketing campaigns and strategic partnerships with industry leaders.",
+      ],
+      skills: [
+        "Content Strategy/Planning · Project Management · Partnership Management · Full-Stack Marketing Campaign · SEO/SEM · Brand Development",
       ],
     },
     {
@@ -149,11 +169,17 @@ export const RESUME_DATA = {
       start: "2011",
       end: "2014",
       description: [
-        "-  Founded Leaguepedia in March 2011 to meet the growing needs of the gaming industry. Architected the platform from the ground up, utilizing the Wikimedia framework to ensure optimal performance and user experience.",
-        "- Six Months: Averaged 5M monthly pageviews. Started to attend and cover all major and minor esports events and had become the global go-to resource for anything related to competitive League of Legends.",
-        "- Year 1: Grew the team to 20 part-time and full-time contributors, which quickly doubled our site traffic at 12 million monthly pageviews and 3 million MAUs. Supported more than 12 languages and had grown to one of the most visited League of Legends websites in the world.",
-        "- Year 2: Acquired multiple companies to expand our reach, including LoLVODs, League Fantasy, and Esportscalendar. Reached an all-time high of 31 million monthly pageviews and 8 million MAUs.",
-        "- Ran two highly successful charity events in 2013, each raising $10's of thousands in donations. Best Riven NA broke multiple Twitch TV viewer number records for a non-publisher-partnered event after surpassing 180k viewers during the final, with a combined 6 million users tuning in over the weekend.",
+        "- Founded and led a successful startup that served as the global go-to resource for anything related to competitive League of Legends.",
+        "- Architected and developed the platform from the ground up, utilizing the Wikimedia framework to ensure optimal performance and user experience.",
+        "- Grew the team to 20 part-time and full-time contributors, which doubled site traffic at 12 million monthly pageviews and 3 million MAUs within the first year.",
+        "- Expanded the reach of the platform by acquiring multiple companies in the esports industry, including LoLVODs, League Fantasy, and Esportscalendar.",
+        "- Organized and ran multiple live and online events, including three highly successful charity tournaments (Best Riven NA, Best Lee Sin NA, Pros Play for the Philippines) that raised tens of thousands of dollars in donations and broke viewer number records on Twitch TV for a non-publisher ran event (190k CCU, 6+ million total).",
+        "- Managed all aspects of the startup, including product development, marketing, fundraising, and strategic partnerships.",
+        "- Demonstrated strong leadership skills by inspiring and motivating the team to achieve outstanding results and exceed expectations.",
+        "- Developed and maintained relationships with major and minor esports events, sponsors, and industry influencers to ensure the platform remained relevant and up-to-date.",
+      ],
+      skills: [
+        "Product Management · Esports · Software Development · Knowledge Management · Business Development · User Experience",
       ],
     },
     {
@@ -164,10 +190,39 @@ export const RESUME_DATA = {
       start: "2011",
       end: "2012",
       description: [
-        "- Proficient in performing Windows server setups and management, including installation of Web Farm Framework, IIS 6/7, and SQL 2008 on a dedicated virtual machine.",
-        "- Skilled in setting up Linux servers with LAMP stacks, Memcached, Varnish, and MySQL using a control panel to manage virtual machines.",
-        "- Assigned as the Subject Matter Expert (SME) in May of 2012 for all Cloud Server MaaS (Monitoring as a Service) applications and tools.",
-        "- Successfully managed Linux and Windows Core Cloud servers, overseeing the maintenance of XenServer and XenClassic hypervisors for small business and enterprise servers as an L2 System Administrator. Also acted as the Lead SME of Cloudkick for all Cloud Servers.",
+        "- - Utilized strong project management skills to lead cross-functional teams in designing and implementing complex systems architectures.",
+        "- Played a key role in ensuring the availability, scalability, and security of mission-critical systems, including servers, databases, and networks.",
+        "- Conducted extensive research and analysis to identify emerging technologies and trends, as well as evaluate and recommend relevant tools and solutions.",
+        "- Collaborated closely with other departments, including product development, sales, and customer support, to align system design with business objectives.",
+        "- Developed and implemented disaster recovery plans to minimize system downtime and data loss in the event of a crisis.",
+        "- Monitored system performance using advanced tools and techniques to identify and resolve issues before impacting end-users.",
+        "- Documented system design, configuration, and procedures to ensure consistency and facilitate knowledge transfer.",
+        "- Provided technical leadership and mentorship to other systems engineers, fostering a culture of innovation, collaboration, and continuous improvement.",
+      ],
+      skills: [
+        "Project Management · Systems Architecture · Security · Disaster Recovery · Monitoring · Documentation · Leadership",
+      ],
+    },
+    {
+      company: "Rackspace",
+      link: "https://rackspace.com",
+      badges: ["San Antonio, TX"],
+      title: "Sr. System Engineer",
+      logo: NSNLogo,
+      start: "2010",
+      end: "2011",
+      description: [
+        "- Successfully managed and maintained Linux and Windows Core Cloud servers for small businesses and enterprise clients as an L2 System Administrator at Rackspace Web Hosting.",
+        "- Led a team of technicians to oversee the maintenance of XenServer and XenClassic hypervisors.",
+        "- Handled all Cloud Servers and acted as the Lead SME of Cloudkick for all Cloud Servers.",
+        "- Provided technical support to clients and resolved critical issues in a timely and professional manner.",
+        "- Collaborated with cross-functional teams to implement and maintain new technologies and software applications.",
+        "- Developed and executed disaster recovery plans to ensure business continuity and minimize downtime.",
+        "- Conducted regular system audits and implemented security measures to protect against potential threats.",
+        "- Maintained accurate documentation and provided regular reports to management on system performance and usage metrics.",
+      ],
+      skills: [
+        "Linux · Windows · Cloud Servers · Hypervisors · Technical Support · Disaster Recovery · Security · Documentation",
       ],
     },
     {
@@ -178,8 +233,17 @@ export const RESUME_DATA = {
       start: "2009",
       end: "2011",
       description: [
-        "- Managed and maintained Linux and Windows networks for over 500 customers, ensuring high availability and optimal performance.",
-        "- Configured and maintained enterprise-level Active Directory installations, providing seamless integration and secure access control.",
+        "- Managed and optimized Linux and Windows networks for 500+ customers, ensuring high availability and optimal performance, resulting in improved customer satisfaction and retention rates.",
+        "- Conducted regular maintenance tasks, including software updates, security patches, and system backups, minimizing downtime and increasing system stability.",
+        "- Troubleshot and resolved technical issues promptly and efficiently, resulting in reduced system downtime and improved system performance.",
+        "- Configured and maintained enterprise-level Active Directory installations, enabling seamless integration and secure access control, ensuring the security and privacy of customer data.",
+        "- Implemented various security protocols, such as multi-factor authentication, role-based access control, and password policies, ensuring secure user access and compliance with industry standards.",
+        "- Collaborated with cross-functional teams to design and implement network and security solutions that aligned with business objectives, resulting in improved operational efficiency and productivity.",
+        "- Conducted business requirement assessments, designed technical solutions, and provided guidance and support during implementation, ensuring successful project delivery within budget and timeline constraints.",
+        "- Provided end-user training and support to ensure effective utilization of network and security systems, resulting in improved user satisfaction and productivity.",
+      ],
+      skills: [
+        "Linux · Windows · Network Optimization · Security · Active Directory · Troubleshooting · Technical Support · Business Requirements Analysis",
       ],
     },
     {
@@ -190,8 +254,15 @@ export const RESUME_DATA = {
       start: "2008",
       end: "2009",
       description: [
-        "- Led IT support operations, overseeing tasks including server setup and management, and design and administration of multiple websites.",
-        "- Designed and implemented a highly advanced computer network that boosted productivity by 3x, while significantly reducing server downtime, network performance issues, and configuration errors.",
+        "- Spearheaded all IT support operations, managing a team of professionals and overseeing tasks ranging from Mac OSX Server setup and management to multiple website design and administration.",
+        "- Architected and implemented an advanced computer network that increased productivity by 3x, significantly decreased server downtime, and improved network performance and configuration accuracy.",
+        "- Collaborated with leadership and cross-functional teams to establish and execute IT strategies that aligned with company objectives and goals.",
+        "- Led successful implementation of new software and hardware systems, ensuring seamless integration with existing infrastructure.",
+        "- Oversaw vendor relationships, negotiated contracts, and ensured service level agreements were met on a regular basis.",
+        "- Developed and maintained IT budgets, ensuring optimal resource allocation and cost efficiency.",
+      ],
+      skills: [
+        "IT Support Operations · Team Management · Network Architecture · Mac OSX Server · Website Administration · Vendor Management · Budgeting",
       ],
     },
     {
@@ -202,9 +273,14 @@ export const RESUME_DATA = {
       start: "2004",
       end: "2009",
       description: [
-        "- Managed all web hosting operations, including server management, client relationship development, technician and sales representative hiring and training.",
-        "- Implemented a new virtual training system for technicians, enabling remote learning using in-house software.",
-        "- Optimized billing systems and performed cutting-edge SEO techniques for both our own websites and certain client websites.",
+        "- Directed all aspects of operations, including web hosting, server management, client relationships, and team management, resulting in increased efficiency and profitability.",
+        "- Spearheaded the development and implementation of a virtual training system for technicians, enabling remote learning and improving team skills without the need for costly travel.",
+        "- Streamlined billing systems and implemented cutting-edge SEO techniques for our websites and select client sites, resulting in increased traffic, engagement, and revenue.",
+        "- Collaborated with the executive team to develop and execute strategic plans, ensuring alignment with company goals and objectives.",
+        "- Oversaw the hiring, training, and development of a high-performing team of technicians and sales representatives, fostering a culture of collaboration, innovation, and excellence.",
+      ],
+      skills: [
+        "Operations · Web Hosting · Server Management · Client Relationships · Team Management · SEO · Strategic Planning",
       ],
     },
     {
@@ -216,9 +292,14 @@ export const RESUME_DATA = {
       start: "1998",
       end: "2000",
       description: [
-        "- At 13, I convinced a local small business ISP to run a T1 line (1.5mbps!) 30 miles out to my parent's house; I set up a website and game server hosting business that I initially ran entirely out of our basement. After two years, I had grown to 100's of users with colocated servers setup across the US and EU.",
-        "- After entering high school, it became difficult to maintain the needs of the platform, resulting in me selling the company to a Law Firm out of New York that was in need of server space.",
-        "- Whether I was learning how to build a server from scratch, convincing data centers to sell me discounted rack space for our servers, or writing up 12-month contracts for small and enterprise businesses around the world, the stories and lessons learned from this experience were priceless and still play a major part in my day to day life.",
+        "- Successfully founded and operated a profitable business, hosting over 200 websites and 40 game servers, and serving over 10 million page views per month.",
+        "- Demonstrated strong leadership and negotiation skills by convincing a small business ISP to run a T1 line 30 miles out to a rural location, allowing for seamless operations and growth.",
+        "- Led a team of professionals to build and maintain a customer base of hundreds of users with colocated servers set up across the US and EU.",
+        "- Secured a successful exit by selling the business for $50K, two years after its inception, generating substantial returns for investors.",
+        "- Utilized excellent problem-solving and analytical skills to identify and capitalize on new market opportunities, contributing to the company's rapid growth and success.",
+      ],
+      skills: [
+        "Business Operations · Web Hosting · Server Management · Client Relationships · Team Management · SEO · Strategic Planning",
       ],
     },
   ],

@@ -109,7 +109,6 @@ export default function Page() {
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
-
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
                           <Badge
@@ -126,7 +125,6 @@ export default function Page() {
                       {work.start} - {work.end}
                     </div>
                   </div>
-
                   <h4 className="font-mono text-sm leading-none">
                     {work.title}
                   </h4>
@@ -135,6 +133,14 @@ export default function Page() {
                   {Array.isArray(work.description) 
                     ? <ul>{work.description.map((item, index) => <li style={{marginBottom: '0.5em'}} key={index}>{item}</li>)}</ul>  
                     : work.description}
+                <div className="italic mt-4">
+                  <h5 className="font-bold">Key Skills:</h5>
+                  <ul>
+                    {work.skills && work.skills.map((skill, index) => (
+                      <li key={index}>{skill}</li>
+                    ))}
+                  </ul>
+                </div>
                 </CardContent>
               </Card>
             );

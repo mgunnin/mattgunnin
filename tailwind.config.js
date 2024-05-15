@@ -2,11 +2,11 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-  ],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+    "./src/subframe/**/*.{tsx,ts,js,jsx}"],
   prefix: "",
   theme: {
     container: {
@@ -74,4 +74,5 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
+  presets: [require("./src/subframe/tailwind.config.js")]
 }

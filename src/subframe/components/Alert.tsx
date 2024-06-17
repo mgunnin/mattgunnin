@@ -1,8 +1,8 @@
 "use client";
 /*
  * Documentation:
- * Alert — https://app.subframe.com/library?component=Alert_3a65613d-d546-467c-80f4-aaba6a7edcd5
- * Icon Button — https://app.subframe.com/library?component=Icon+Button_af9405b1-8c54-4e01-9786-5aad308224f6
+ * Alert — https://app.subframe.com/3c6d554ad7f3/library?component=Alert_3a65613d-d546-467c-80f4-aaba6a7edcd5
+ * Icon Button — https://app.subframe.com/3c6d554ad7f3/library?component=Icon+Button_af9405b1-8c54-4e01-9786-5aad308224f6
  */
 
 import React from "react";
@@ -62,7 +62,7 @@ const AlertRoot = React.forwardRef<HTMLElement, AlertRootProps>(
             )}
             name={icon}
           />
-          <div className="flex w-full grow shrink-0 basis-0 flex-col items-start">
+          <div className="flex grow shrink-0 basis-0 flex-col items-start">
             {title ? (
               <span
                 className={SubframeCore.twClassNames(

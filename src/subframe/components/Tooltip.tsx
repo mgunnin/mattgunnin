@@ -1,7 +1,7 @@
 "use client";
 /*
  * Documentation:
- * Tooltip — https://app.subframe.com/library?component=Tooltip_ccebd1e9-f6ac-4737-8376-0dfacd90c9f3
+ * Tooltip — https://app.subframe.com/3c6d554ad7f3/library?component=Tooltip_ccebd1e9-f6ac-4737-8376-0dfacd90c9f3
  */
 
 import React from "react";

@@ -1,8 +1,8 @@
 "use client";
 /*
  * Documentation:
- * Default Page Layout — https://app.subframe.com/library?component=Default+Page+Layout_a57b1c43-310a-493f-b807-8cc88e2452cf
- * Sidebar — https://app.subframe.com/library?component=Sidebar_1651a160-3525-494a-b02c-03db4e8516b1
+ * Default Page Layout — https://app.subframe.com/3c6d554ad7f3/library?component=Default+Page+Layout_a57b1c43-310a-493f-b807-8cc88e2452cf
+ * Sidebar — https://app.subframe.com/3c6d554ad7f3/library?component=Sidebar_1651a160-3525-494a-b02c-03db4e8516b1
  */
 
 import React from "react";
@@ -33,7 +33,7 @@ const DefaultPageLayoutRoot = React.forwardRef<
     >
       <Sidebar logoImage="https://res.cloudinary.com/subframe/image/upload/v1711417507/shared/y2rsnhq3mex4auk54aye.png" />
       {children ? (
-        <div className="flex h-full w-full grow shrink-0 basis-0 flex-col items-start gap-4 overflow-y-auto">
+        <div className="flex grow shrink-0 basis-0 flex-col items-start gap-4 self-stretch overflow-y-auto">
           {children}
         </div>
       ) : null}

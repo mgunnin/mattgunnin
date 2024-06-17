@@ -1,11 +1,11 @@
 "use client";
 /*
  * Documentation:
- * Icon with background — https://app.subframe.com/library?component=Icon+with+background_c5d68c0e-4c0c-4cff-8d8c-6ff334859b3a
+ * Icon with background — https://app.subframe.com/3c6d554ad7f3/library?component=Icon+with+background_c5d68c0e-4c0c-4cff-8d8c-6ff334859b3a
  */
 
-import * as SubframeCore from "@subframe/core";
 import React from "react";
+import * as SubframeCore from "@subframe/core";
 
 interface IconWithBackgroundRootProps
   extends React.HTMLAttributes<HTMLDivElement> {

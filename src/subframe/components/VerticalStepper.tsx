@@ -1,7 +1,7 @@
 "use client";
 /*
  * Documentation:
- * Vertical Stepper — https://app.subframe.com/library?component=Vertical+Stepper_bdc0291d-b5be-40c5-ae2f-527a868488b2
+ * Vertical Stepper — https://app.subframe.com/3c6d554ad7f3/library?component=Vertical+Stepper_bdc0291d-b5be-40c5-ae2f-527a868488b2
  */
 
 import React from "react";
@@ -41,7 +41,7 @@ const Step = React.forwardRef<HTMLElement, StepProps>(function Step(
     >
       <div
         className={SubframeCore.twClassNames(
-          "flex h-full flex-col items-center",
+          "flex flex-col items-center self-stretch",
           { "h-auto w-auto flex-none": lastStep }
         )}
       >
@@ -85,14 +85,14 @@ const Step = React.forwardRef<HTMLElement, StepProps>(function Step(
         </div>
         <div
           className={SubframeCore.twClassNames(
-            "flex h-full min-h-[12px] w-0.5 grow shrink-0 basis-0 flex-col items-center gap-2 bg-neutral-border",
+            "flex min-h-[12px] w-0.5 grow shrink-0 basis-0 flex-col items-center gap-2 bg-neutral-border",
             { hidden: lastStep }
           )}
         />
       </div>
       <div
         className={SubframeCore.twClassNames(
-          "flex w-full grow shrink-0 basis-0 flex-col items-center gap-1 pt-4 pb-4",
+          "flex grow shrink-0 basis-0 flex-col items-center gap-1 pt-4 pb-4",
           { "pt-4 pr-0 pb-1 pl-0": lastStep, "pt-1 pr-0 pb-4 pl-0": firstStep }
         )}
       >

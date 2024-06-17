@@ -1,8 +1,8 @@
 "use client";
 /*
  * Documentation:
- * Explore Card — https://app.subframe.com/library?component=Explore+Card_bca37f79-4fe8-49fe-8b6c-8e512ba4845b
- * Icon with background — https://app.subframe.com/library?component=Icon+with+background_c5d68c0e-4c0c-4cff-8d8c-6ff334859b3a
+ * Explore Card — https://app.subframe.com/3c6d554ad7f3/library?component=Explore+Card_bca37f79-4fe8-49fe-8b6c-8e512ba4845b
+ * Icon with background — https://app.subframe.com/3c6d554ad7f3/library?component=Icon+with+background_c5d68c0e-4c0c-4cff-8d8c-6ff334859b3a
  */
 
 import React from "react";
@@ -44,11 +44,11 @@ const ExploreCardRoot = React.forwardRef<HTMLElement, ExploreCardRootProps>(
             {count}
           </span>
         ) : null}
-        <div className="flex w-full grow shrink-0 basis-0 items-center gap-4">
+        <div className="flex grow shrink-0 basis-0 items-center gap-4">
           {children ? (
             <div className="flex items-center gap-4">{children}</div>
           ) : null}
-          <div className="flex w-full grow shrink-0 basis-0 flex-col items-start gap-4">
+          <div className="flex grow shrink-0 basis-0 flex-col items-start gap-4">
             <div className="flex w-full flex-col items-start gap-1">
               {title ? (
                 <span className="w-full text-body-bold font-body-bold text-default-font">

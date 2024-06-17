@@ -1,7 +1,7 @@
 "use client";
 /*
  * Documentation:
- * Slider — https://app.subframe.com/library?component=Slider_f4092874-0320-449e-a0c5-b435987c4cfb
+ * Slider — https://app.subframe.com/3c6d554ad7f3/library?component=Slider_f4092874-0320-449e-a0c5-b435987c4cfb
  */
 
 import React from "react";

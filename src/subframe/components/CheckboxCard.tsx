@@ -1,7 +1,7 @@
 "use client";
 /*
  * Documentation:
- * Checkbox Card — https://app.subframe.com/library?component=Checkbox+Card_de0b4dfb-3946-4702-be52-5678dd71925a
+ * Checkbox Card — https://app.subframe.com/3c6d554ad7f3/library?component=Checkbox+Card_de0b4dfb-3946-4702-be52-5678dd71925a
  */
 
 import React from "react";
@@ -26,7 +26,7 @@ const CheckboxCardRoot = React.forwardRef<HTMLElement, CheckboxCardRootProps>(
   ) {
     return (
       <SubframeCore.Checkbox.Root asChild={true} {...otherProps}>
-        <div
+        <button
           className={SubframeCore.twClassNames(
             "group/de0b4dfb flex cursor-pointer items-center gap-4 rounded border border-solid border-neutral-border bg-default-background pt-3 pr-4 pb-3 pl-4 hover:border hover:border-solid hover:border-neutral-border hover:bg-neutral-50 aria-[checked=true]:border aria-[checked=true]:border-solid aria-[checked=true]:border-brand-200 aria-[checked=true]:bg-brand-50 disabled:cursor-default disabled:border disabled:border-solid disabled:border-neutral-200 disabled:bg-neutral-100",
             className
@@ -45,11 +45,11 @@ const CheckboxCardRoot = React.forwardRef<HTMLElement, CheckboxCardRootProps>(
             />
           </div>
           {children ? (
-            <div className="flex w-full grow shrink-0 basis-0 items-center gap-4">
+            <div className="flex grow shrink-0 basis-0 items-center gap-4">
               {children}
             </div>
           ) : null}
-        </div>
+        </button>
       </SubframeCore.Checkbox.Root>
     );
   }

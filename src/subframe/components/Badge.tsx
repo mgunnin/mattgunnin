@@ -1,7 +1,7 @@
 "use client";
 /*
  * Documentation:
- * Badge — https://app.subframe.com/library?component=Badge_97bdb082-1124-4dd7-a335-b14b822d0157
+ * Badge — https://app.subframe.com/3c6d554ad7f3/library?component=Badge_97bdb082-1124-4dd7-a335-b14b822d0157
  */
 
 import React from "react";

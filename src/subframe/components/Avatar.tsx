@@ -1,7 +1,7 @@
 "use client";
 /*
  * Documentation:
- * Avatar — https://app.subframe.com/library?component=Avatar_bec25ae6-5010-4485-b46b-cf79e3943ab2
+ * Avatar — https://app.subframe.com/3c6d554ad7f3/library?component=Avatar_bec25ae6-5010-4485-b46b-cf79e3943ab2
  */
 
 import React from "react";
@@ -69,10 +69,7 @@ const AvatarRoot = React.forwardRef<HTMLElement, AvatarRootProps>(
           </span>
         ) : null}
         {image ? (
-          <img
-            className="h-full w-full grow shrink-0 basis-0 absolute"
-            src={image}
-          />
+          <img className="w-full grow shrink-0 basis-0 absolute" src={image} />
         ) : null}
       </div>
     );

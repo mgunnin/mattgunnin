@@ -1,7 +1,7 @@
 "use client";
 /*
  * Documentation:
- * Tabs — https://app.subframe.com/library?component=Tabs_e1ad5091-8ad8-4319-b1f7-3e47f0256c20
+ * Tabs — https://app.subframe.com/3c6d554ad7f3/library?component=Tabs_e1ad5091-8ad8-4319-b1f7-3e47f0256c20
  */
 
 import React from "react";
@@ -83,9 +83,9 @@ const TabsRoot = React.forwardRef<HTMLElement, TabsRootProps>(function TabsRoot(
       {...otherProps}
     >
       {children ? (
-        <div className="flex h-full items-start">{children}</div>
+        <div className="flex items-start self-stretch">{children}</div>
       ) : null}
-      <div className="flex h-full w-full grow shrink-0 basis-0 flex-col items-start gap-2 border-b border-solid border-neutral-border" />
+      <div className="flex grow shrink-0 basis-0 flex-col items-start gap-2 self-stretch border-b border-solid border-neutral-border" />
     </div>
   );
 });

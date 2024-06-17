@@ -1,7 +1,7 @@
 "use client";
 /*
  * Documentation:
- * Text Field — https://app.subframe.com/library?component=Text+Field_be48ca43-f8e7-4c0e-8870-d219ea11abfe
+ * Text Field — https://app.subframe.com/3c6d554ad7f3/library?component=Text+Field_be48ca43-f8e7-4c0e-8870-d219ea11abfe
  */
 
 import React from "react";
@@ -88,7 +88,7 @@ const TextFieldRoot = React.forwardRef<HTMLElement, TextFieldRootProps>(
             name={icon}
           />
           {children ? (
-            <div className="flex h-full w-full grow shrink-0 basis-0 flex-col items-start pr-1 pl-1">
+            <div className="flex grow shrink-0 basis-0 flex-col items-start self-stretch pr-1 pl-1">
               {children}
             </div>
           ) : null}

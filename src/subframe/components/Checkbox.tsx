@@ -1,7 +1,7 @@
 "use client";
 /*
  * Documentation:
- * Checkbox — https://app.subframe.com/library?component=Checkbox_3816e3b5-c48c-499b-b45e-0777c6972523
+ * Checkbox — https://app.subframe.com/3c6d554ad7f3/library?component=Checkbox_3816e3b5-c48c-499b-b45e-0777c6972523
  */
 
 import React from "react";
@@ -20,9 +20,9 @@ const CheckboxRoot = React.forwardRef<HTMLElement, CheckboxRootProps>(
   ) {
     return (
       <SubframeCore.Checkbox.Root asChild={true} {...otherProps}>
-        <div
+        <button
           className={SubframeCore.twClassNames(
-            "group/3816e3b5 flex cursor-pointer items-center gap-2",
+            "group/3816e3b5 flex cursor-pointer items-center gap-2 text-left",
             className
           )}
           ref={ref as any}
@@ -38,7 +38,7 @@ const CheckboxRoot = React.forwardRef<HTMLElement, CheckboxRootProps>(
               {label}
             </span>
           ) : null}
-        </div>
+        </button>
       </SubframeCore.Checkbox.Root>
     );
   }

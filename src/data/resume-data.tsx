@@ -4,13 +4,23 @@ export const RESUME_DATA = {
   initials: "MG",
   location: "Austin, Texas, CST",
   locationLink: "https://www.google.com/maps/place/Austin",
+  name: "Matt Gunnin",
+  initials: "MG",
+  location: "Austin, Texas, CST",
+  locationLink: "https://www.google.com/maps/place/Austin",
   about:
     "4x Technical Founder (2 exits) with a proven track record in building and scaling startups within the AI, Crypto and Gaming space.",
+  "4x Technical Founder (2 exits) with a proven track record in building and scaling startups within the AI, Crypto and Gaming space.",
   summary:
     "Innovative technology leader with a profound expertise in Fantasy Sports, Gambling, NFTs, Blockchain, and real-time community platforms. A visionary entrepreneur with a proven track record in leading and scaling products in the sports, esports, and gaming industry. Passionate about merging creative communities with groundbreaking technologies to foster engaging, dynamic user experiences. Ready to leverage a deep understanding of AI, digital assets, and community building to drive growth and innovation.",
   avatarUrl: "https://avatars.githubusercontent.com/u/321368?v=4",
   personalWebsiteUrl: "https://mattgunnin.com",
+  "Innovative technology leader with a profound expertise in Fantasy Sports, Gambling, NFTs, Blockchain, and real-time community platforms. A visionary entrepreneur with a proven track record in leading and scaling products in the sports, esports, and gaming industry. Passionate about merging creative communities with groundbreaking technologies to foster engaging, dynamic user experiences. Ready to leverage a deep understanding of AI, digital assets, and community building to drive growth and innovation.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/321368?v=4",
+  personalWebsiteUrl: "https://mattgunnin.com",
   contact: {
+    email: "mg@mattgunnin.com",
+    tel: "+1(334)462-8990",
     email: "mg@mattgunnin.com",
     tel: "+1(334)462-8990",
     social: [
@@ -33,6 +43,10 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "Auburn University",
+      degree: "Bachelor's Degree in Computer Engineering, Minor in Business Administration",
+      start: "2004",
+      end: "2009",
       school: "Auburn University",
       degree: "Bachelor's Degree in Computer Engineering, Minor in Business Administration",
       start: "2004",
@@ -110,6 +124,19 @@ export const RESUME_DATA = {
       title: "Founder/CEO",
 
       start: "2015",
+      end: "2023",
+      description: [
+        "- Spearheaded the launch and growth of a comprehensive esports information hub that became the premier resource in the industry, visited by millions each month.",
+        "- Developed and executed strategic initiatives that significantly increased site traffic and community engagement through real-time updates and user-generated content, resulting in a loyal community of users and advocates.",
+        "- Built and led a high-performing team of 10 employees and 100 volunteer contributors spanning across games and departments, including marketing, content, events, and product development.",
+        "- Successfully covered all major esports titles, including League of Legends, Call of Duty, Halo, and Smite, while also providing a custom-tailored resource for streamers and collegiate esports.",
+        "- Leveraged data-driven insights to continuously improve user experience, inform content creation, and drive revenue growth.",
+        "-  Established and maintained strong partnerships with industry stakeholders, including game developers, sponsors, and media outlets, to enhance the platform's credibility and reach.",
+        "-  Championed a culture of innovation, collaboration, and accountability, fostering a dynamic and motivated team environment.",
+      ],
+      skills: [
+        "Product Management · Esports · Software Development · Knowledge Management · Business Development · User Experience",
+      ],
       end: "2023",
       description: [
         "- Spearheaded the launch and growth of a comprehensive esports information hub that became the premier resource in the industry, visited by millions each month.",
@@ -316,6 +343,18 @@ export const RESUME_DATA = {
     "Web3",
     "Solidity",
     "Ethereum",
+    "AI",
+    "Entrepreneurship",
+    "Startups",
+    "Esports",
+    "Fantasy Sports",
+    "Gambling",
+    "Venture Capital",
+    "Blockchain",
+    "NFTs",
+    "Web3",
+    "Solidity",
+    "Ethereum",
     "JavaScript",
     "TypeScript",
     "React/Next.js/Remix",
@@ -336,15 +375,31 @@ export const RESUME_DATA = {
     "UI/UX",
     "Computer Vision",
     "Reinforcement Learning",
+    "Business Development",
+    "Product Management",
+    "Marketing",
+    "SEO",
+    "Social Media",
+    "Content Creation",
+    "Design",
+    "UI/UX",
+    "Computer Vision",
+    "Reinforcement Learning",
   ],
   projects: [
     {
       title: "Matt Gunnin",
       techStack: ["Personal", "Blog", "Next.js", "React", "Vercel"],
+      title: "Matt Gunnin",
+      techStack: ["Personal", "Blog", "Next.js", "React", "Vercel"],
       description:
         "My personal website and CV. Built with Next.js and Typescript",
       logo: JarockiMeLogo,
+      "My personal website and CV. Built with Next.js and Typescript",
+      logo: JarockiMeLogo,
       link: {
+        label: "Matt Gunnin",
+        href: "https://mattgunnin.com/",
         label: "Matt Gunnin",
         href: "https://mattgunnin.com/",
       },
@@ -352,10 +407,15 @@ export const RESUME_DATA = {
     {
       title: "Resource Hub",
       techStack: ["Side Project", "Raindrop", "Resource Collection"],
+      title: "Resource Hub",
+      techStack: ["Side Project", "Raindrop", "Resource Collection"],
       description:
         "Collection of my favorite resources, guides, and tools that I've collected over the years.",
+      "Collection of my favorite resources, guides, and tools that I've collected over the years.",
       logo: JarockiMeLogo,
       link: {
+        label: "Raindrop",
+        href: "https://raindrop.io/esports",
         label: "Raindrop",
         href: "https://raindrop.io/esports",
       },
@@ -363,10 +423,16 @@ export const RESUME_DATA = {
     {
       title: "Esportscalendar",
       techStack: ["Calendar", "Esports", "Events Calendar"],
+      title: "Esportscalendar",
+      techStack: ["Calendar", "Esports", "Events Calendar"],
       description:
         "Esports event calendar that I built in 2013. It was the first of its kind and was used by 100's of thousands of users each month.",
       logo: JarockiMeLogo,
+      "Esports event calendar that I built in 2013. It was the first of its kind and was used by 100's of thousands of users each month.",
+      logo: JarockiMeLogo,
       link: {
+        label: "Esportscalendar",
+        href: "https://esportscalendar.com",
         label: "Esportscalendar",
         href: "https://esportscalendar.com",
       },
@@ -374,10 +440,16 @@ export const RESUME_DATA = {
     {
       title: "Discord Community",
       techStack: ["Discord", "Community", "Gaming", "Esports", "NFTs", "Crypto"],
+      title: "Discord Community",
+      techStack: ["Discord", "Community", "Gaming", "Esports", "NFTs", "Crypto"],
       description:
         "Discord community that was launched in 2017. Grew to 10,000+ members and was one of the first to launch membership capable NFTs.",
       logo: JarockiMeLogo,
+      "Discord community that was launched in 2017. Grew to 10,000+ members and was one of the first to launch membership capable NFTs.",
+      logo: JarockiMeLogo,
       link: {
+        label: "Discord Server",
+        href: "https://e1.gg/discord",
         label: "Discord Server",
         href: "https://e1.gg/discord",
       },
@@ -385,10 +457,16 @@ export const RESUME_DATA = {
     {
       title: "OneConsole",
       techStack: ["Dashboard", "Computer Vision", "Stats & Analytics", "Esports", "League of Legends", "Riot Games", "AI", "Reinforcement Learning"],
+      title: "OneConsole",
+      techStack: ["Dashboard", "Computer Vision", "Stats & Analytics", "Esports", "League of Legends", "Riot Games", "AI", "Reinforcement Learning"],
       description:
         "Real-time stats and analytics dashboard for League of Legends' broadcasters and analyst. Built using Computer Vision and Reinforcement Learning. Used by Riot Games, Acer, and more than 50 professional & amateur teams.",
       logo: JarockiMeLogo,
+      "Real-time stats and analytics dashboard for League of Legends' broadcasters and analyst. Built using Computer Vision and Reinforcement Learning. Used by Riot Games, Acer, and more than 50 professional & amateur teams.",
+      logo: JarockiMeLogo,
       link: {
+        label: "OneConsole",
+        href: "",
         label: "OneConsole",
         href: "",
       },
@@ -396,10 +474,16 @@ export const RESUME_DATA = {
     {
       title: "OneView",
       techStack: ["Dashboard", "Computer Vision", "Twitch", "Extension", "Predictions", "Streaming"],
+      title: "OneView",
+      techStack: ["Dashboard", "Computer Vision", "Twitch", "Extension", "Predictions", "Streaming"],
       description:
         "Live engagement overlay built as an early Twitch extension. Provided viewers with live stats, trivia, and predictions during streams. Built in partnership with Twitch and used by 100's of streamers.",
       logo: JarockiMeLogo,
+      "Live engagement overlay built as an early Twitch extension. Provided viewers with live stats, trivia, and predictions during streams. Built in partnership with Twitch and used by 100's of streamers.",
+      logo: JarockiMeLogo,
       link: {
+        label: "OneView",
+        href: "",
         label: "OneView",
         href: "",
       },

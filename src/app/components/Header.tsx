@@ -1,12 +1,11 @@
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
-import Image, { type StaticImageData } from "next/image";
-import type React from "react";
 import { Avatar } from "@/components/avatar";
-import { Button } from "@/components/ui/button";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 import { XIcon } from "@/components/icons/x-icon";
+import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
-import type { ResumeIcon, IconType } from "@/lib/types";
+import type { IconType } from "@/lib/types";
+import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import type React from "react";
 
 // Type-safe icon mapping
 const ICON_MAP: Record<IconType, React.ComponentType<React.SVGProps<SVGSVGElement>>> = {
@@ -55,7 +54,7 @@ function SocialButton({
   label,
 }: SocialButtonProps) {
   const IconComponent = ICON_MAP[iconType];
-  
+
   return (
     <Button className="size-8" variant="outline" size="icon" asChild={true}>
       <a

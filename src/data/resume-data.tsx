@@ -4,13 +4,23 @@ export const RESUME_DATA = {
   initials: "MG",
   location: "Austin, Texas, CST",
   locationLink: "https://www.google.com/maps/place/Austin",
+  name: "Matt Gunnin",
+  initials: "MG",
+  location: "Austin, Texas, CST",
+  locationLink: "https://www.google.com/maps/place/Austin",
   about:
+    "4x Technical Founder (2 exits) with a proven track record in building and scaling startups within the AI, Crypto and Gaming space.",
     "4x Technical Founder (2 exits) with a proven track record in building and scaling startups within the AI, Crypto and Gaming space.",
   summary:
     "Innovative technology leader with a profound expertise in Fantasy Sports, Gambling, NFTs, Blockchain, and real-time community platforms. A visionary entrepreneur with a proven track record in leading and scaling products in the sports, esports, and gaming industry. Passionate about merging creative communities with groundbreaking technologies to foster engaging, dynamic user experiences. Ready to leverage a deep understanding of AI, digital assets, and community building to drive growth and innovation.",
   avatarUrl: "https://avatars.githubusercontent.com/u/321368?v=4",
   personalWebsiteUrl: "https://mattgunnin.com",
+    "Innovative technology leader with a profound expertise in Fantasy Sports, Gambling, NFTs, Blockchain, and real-time community platforms. A visionary entrepreneur with a proven track record in leading and scaling products in the sports, esports, and gaming industry. Passionate about merging creative communities with groundbreaking technologies to foster engaging, dynamic user experiences. Ready to leverage a deep understanding of AI, digital assets, and community building to drive growth and innovation.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/321368?v=4",
+  personalWebsiteUrl: "https://mattgunnin.com",
   contact: {
+    email: "mg@mattgunnin.com",
+    tel: "+1(334)462-8990",
     email: "mg@mattgunnin.com",
     tel: "+1(334)462-8990",
     social: [
@@ -33,6 +43,10 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "Auburn University",
+      degree: "Bachelor's Degree in Computer Engineering, Minor in Business Administration",
+      start: "2004",
+      end: "2009",
       school: "Auburn University",
       degree: "Bachelor's Degree in Computer Engineering, Minor in Business Administration",
       start: "2004",

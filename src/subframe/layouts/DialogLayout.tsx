@@ -6,7 +6,6 @@
  */
 
 import React from "react";
-import * as SubframeCore from "@subframe/core";
 import { Dialog } from "../components/Dialog";
 
 interface DialogLayoutRootProps extends React.ComponentProps<typeof Dialog> {

@@ -1,6 +1,6 @@
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import Image, { type StaticImageData } from "next/image";
-import React from "react";
+import type React from "react";
 import { Avatar } from "@/components/avatar";
 import { Button } from "@/components/ui/button";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";

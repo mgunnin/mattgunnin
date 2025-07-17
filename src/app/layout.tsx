@@ -2,10 +2,10 @@ import { Analytics } from "@vercel/analytics/react";
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 
-import "./globals.css";
-import type React from "react";
 import { ErrorBoundary } from "@/components/error-boundary";
 import { RESUME_DATA } from "@/data/resume-data";
+import type React from "react";
+import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cv.jarocki.me"),
+  metadataBase: new URL("https://mattgunnin.com"),
   title: {
     default: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     template: `%s | ${RESUME_DATA.name}`,

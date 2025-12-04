@@ -29,6 +29,7 @@
     "cmdk": "^0.2.1",
     "graphql": "^16.12.0",
     "graphql-scalars": "^1.25.0",
+    "html2pdf.js": "^0.12.1",
     "lucide-react": "^0.300.0",
     "next": "14.2.32",
     "react": "^18",
@@ -41,6 +42,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.6",
+    "@types/html2pdf.js": "^0.10.0",
     "@types/node": "^20.19.25",
     "@types/react": "^18.3.27",
     "@types/react-dom": "^18.3.7",

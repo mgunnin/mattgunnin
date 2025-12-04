@@ -1,6 +1,6 @@
 "use client";
 
-import { CommandIcon } from "lucide-react";
+import { CommandIcon, Download } from "lucide-react";
 import * as React from "react";
 import {
   CommandDialog,
@@ -11,6 +11,7 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
+import { usePdfDownload } from "@/lib/use-pdf-download";
 import { Button } from "./ui/button";
 
 interface Props {
@@ -19,6 +20,7 @@ interface Props {
 
 export const CommandMenu = ({ links }: Props) => {
   const [open, setOpen] = React.useState(false);
+  const { downloadPdf, isGenerating } = usePdfDownload();
   const isMac: boolean =
     typeof window !== "undefined"
       ? window.navigator.userAgent.indexOf("Mac") > -1
@@ -58,6 +60,16 @@ export const CommandMenu = ({ links }: Props) => {
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Actions">
+            <CommandItem
+              onSelect={() => {
+                setOpen(false);
+                downloadPdf();
+              }}
+              disabled={isGenerating}
+            >
+              <Download className="mr-2 size-4" />
+              <span>{isGenerating ? "Generating PDF..." : "Download PDF"}</span>
+            </CommandItem>
             <CommandItem
               onSelect={() => {
                 setOpen(false);

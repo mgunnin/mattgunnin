@@ -1,10 +1,11 @@
+import type { Metadata } from "next";
+import { Suspense } from "react";
 import { CommandMenu } from "@/components/command-menu";
+import { PdfDownloadButton } from "@/components/pdf-download-button";
 import { SectionErrorBoundary } from "@/components/section-error-boundary";
 import { SectionSkeleton } from "@/components/section-skeleton";
 import { RESUME_DATA } from "@/data/resume-data";
 import { generateResumeStructuredData } from "@/lib/structured-data";
-import type { Metadata } from "next";
-import { Suspense } from "react";
 import { Education } from "./components/Education";
 import { Header } from "./components/Header";
 import { Projects } from "./components/Projects";
@@ -123,6 +124,7 @@ export default function ResumePage() {
         </section>
 
         <nav className="print:hidden" aria-label="Quick navigation">
+          <PdfDownloadButton />
           <CommandMenu links={getCommandMenuLinks()} />
         </nav>
       </main>
